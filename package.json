@@ -1,0 +1,13 @@
+{
+  "name": "dscr-cron-worker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "node-cron": "^3.0.3"
+  }
+}
