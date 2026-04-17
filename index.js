@@ -1,4 +1,7 @@
+import { config } from "dotenv";
 import cron from "node-cron";
+
+config();
 
 const PIPELINE_URL = process.env.PIPELINE_URL || "http://localhost:3000/api/pipeline/process";
 const INTERVAL = process.env.CRON_INTERVAL || "* * * * *"; // every minute
